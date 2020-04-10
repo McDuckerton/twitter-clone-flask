@@ -1,0 +1,121 @@
+html, body {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    margin: 5px;
+  }
+
+  .topnav a {
+    float: right;
+    display: block;
+    color: #1da1f2;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px 20px 5px;
+    font-weight: bold;
+    border: 1px solid #1da1f2;
+    margin: 1px;
+  }
+
+  .topnav input[type=text] {
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    border: none;
+    margin-left: 30rem;
+    font: 13.33333px;
+    border-radius: 50px;
+    text-align: center;
+    width: 25%;
+    background-color: #e6ecf0;
+  }
+
+  .topnav input[type=text]:hover {
+    border: 1px solid #1da1f2;
+    background-color: white;
+  }
+
+  .topnav a.active {
+    background-color: #1da1f2;
+    color: white;
+    margin-right: 30rem;
+  }
+
+  .topnav a:hover {
+    background-color: #daf1ff;
+    color: #1da1f2;
+    border: 1px solid #1da1f2;
+    text-decoration: none;
+  }
+
+  .topnav a.active:hover {
+    background-color: #1999e9;
+    color: white;
+  }
+
+  .login-form-inner img {
+    width: 15%;
+    height: auto;
+  }
+
+  .login-form-outer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .login-form-inner {
+    display: inline-block;
+    margin: 50px; auto;
+    padding: 3px;
+    width: 30%;
+  }
+
+  .login-form-inner input {
+    width: 100%;
+    text-align: left;
+    font: 15px Arial;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 2px solid #657786;
+    color: #657786;
+    background-color: #f5f8fa;    
+
+  }
+
+  .login-form-inner input:active {
+    border:none;
+    border-bottom: 2px solid #1da1f2;
+    color: #1da1f2;
+  }
+
+  .login-form-inner h1 {
+    margin: 15px auto;
+  }
+
+  .login-form-inner button {
+    border-radius: 50px;
+    background-color: #1da1f2;
+    color: white;
+    width: 100%;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    font: 20px;
+
+  }
