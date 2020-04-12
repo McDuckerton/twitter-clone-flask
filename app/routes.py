@@ -3,6 +3,11 @@ from flask import render_template, request, redirect, url_for, flash, abort, ses
 import os
 from hashlib import sha1
 #import mysql.connector
+"""TODO
+set up database
+auth
+display new items
+"""
 
 # HOST=os.environ['HOST']
 # USER=os.environ['USERNAME']
