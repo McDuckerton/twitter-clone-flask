@@ -41,6 +41,12 @@ def login():
             return redirect(url_for('index'))
         else:
             return render_template('login.html')
+    
+    if 'btn-login' in request.form:
+        print('login button')
+        return redirect(url_for('index'))
+
+    
     else: 
         db = mysql.connector.connect(
             host = HOST,

@@ -3,11 +3,10 @@ html, body {
     font-family: Arial, sans-serif;
 }
 
-.topnav {
-    background-color: white;
+/* .topnav {
+    background-color: red;
     overflow: hidden;
-    margin: 5px;
-  }
+  } */
 
   .topnav a {
     float: right;
@@ -23,20 +22,19 @@ html, body {
     border-radius: 5px 20px 5px;
     font-weight: bold;
     border: 1px solid #1da1f2;
-    margin: 1px;
   }
 
   .topnav input[type=text] {
-    padding-bottom: 12px;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-right: 5em;
     border: none;
-    margin-left: 30rem;
     font: 13.33333px;
     border-radius: 50px;
     text-align: center;
-    width: 25%;
+    width: 60%;
     background-color: #e6ecf0;
   }
 
@@ -48,7 +46,7 @@ html, body {
   .topnav a.active {
     background-color: #1da1f2;
     color: white;
-    margin-right: 30rem;
+    margin-left: 5px;
   }
 
   .topnav a:hover {
@@ -68,6 +66,40 @@ html, body {
     height: auto;
   }
 
+  .index-form-outer {
+    /* background-color: blue; */
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .index-form-inner1 {
+    /* background-color: red; */
+    display: inline-block;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+  }
+
+  .index-form-inner1 img {
+    width: 4%;
+    height: auto;
+    margin-right: 7em;
+  }
+
+  .index-form-inner2 {
+    display: inline-block;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+  }
+
+  .index-form-inner2 p {
+    float: left;
+  }
+
   .login-form-outer {
     width: 100%;
     text-align: center;
@@ -75,7 +107,7 @@ html, body {
 
   .login-form-inner {
     display: inline-block;
-    margin: 50px; auto;
+    margin: 50px auto;
     padding: 3px;
     width: 30%;
   }
@@ -117,5 +149,4 @@ html, body {
     padding-right: 12px;
     padding-top: 12px;
     font: 20px;
-
   }

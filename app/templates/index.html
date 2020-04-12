@@ -4,10 +4,23 @@
 {% endblock %}
 {% block content %}
 <div class="topnav">
-    <form>
-        <input type='text' placeholder='Search Pwitter'/>
-        <a class='active' name='login' href="/login">Log In</a>
-        <a href="/signup">Sign Up</a>
-    </form>
+    <div class="index-form-outer">
+        <div class="index-form-inner1">
+            <form action='/'>
+                <img class="login-logo" alt="pwitter-logo image" src="https://mcleod-static-assets.s3.amazonaws.com/python.jpg">
+                <input type='text' name='txt-search' placeholder='Search Pwitter'/>
+                <a class='active' name='btn-login' href="/login">Log In</a>
+                <a href="/signup">Sign Up</a>
+            </form>
+        </div>
+        <hr>
+        <div class="index-form-inner2">
+            <form action='/getposts'>
+                <!-- { code block }{ endblock }-->
+                <p>Please log in to see content</p>
+            </form>
+        </div>
+
+    </div>
 </div>
 {% endblock  %}
